@@ -1,0 +1,97 @@
+body {
+  background-image: url("izchislyavane-na-gorivo.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  letter-spacing: 1.4px;
+  word-spacing: 2.2px;
+  color: wheat;
+  text-decoration: underline solid wheat;
+  text-align: center;
+  font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+label {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: wheat;
+  font-style: italic;
+}
+input {
+  box-shadow: black;
+  border: 1px solid darkgray;
+  border-radius: 15px;
+  padding: 5px 15px;
+  outline: none;
+}
+p {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: wheat;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+#form label {
+  color: wheat;
+  font-size: 20px;
+}
+#form {
+  background: black;
+  width: 580px;
+  height: 300px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: left;
+  margin: 20px;
+  margin-left: 200px;
+  display: inline-block;
+  opacity: 0.7;
+  border: 1px solid wheat;
+}
+#form:hover {
+  opacity: 0.8;
+}
+#form div {
+  padding: 10px;
+}
+
+#submitBTN {
+  margin-right: 20px;
+  padding: 5px;
+  border: 1px solid wheat;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-style: italic;
+}
+#submitBTN {
+  margin-left: 480px;
+  margin-top: 30px;
+  padding: 8px 10px;
+}
+#submitBTN:enabled {
+  background: rgb(197, 129, 3);
+  color: black;
+}
+#submitBTN:enabled:hover {
+  background-color: rgb(95, 63, 4);
+  color: wheat;
+}
+
+input[type="text"]:hover {
+  background-color: lightgray;
+}
+input[type="text"] {
+  float: right;
+  width: 40%;
+}
